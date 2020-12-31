@@ -1,0 +1,6 @@
+<h1>THIS IS USERS SHOW PAGE</h1>
+
+<p> Here are your tweets, <%= @user.username %>
+<% @user.tweets.each do |tweet| %>
+      <%= tweet.content %>
+<% end %>

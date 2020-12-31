@@ -1,0 +1,7 @@
+<h1> This is TWEETS TWEETS ERB</h1>
+
+<p> Welcome, <%= current_user.username %>
+
+<% @tweets.each do |tweet| %>
+      <%= tweet.content %>
+<% end %>
